@@ -5,80 +5,79 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-  }
-  
-  /* Center the content and limit its width */
-  .center {
+}
+
+/* Center the content and limit its width */
+.center {
     text-align: center;
     width: 80%;
     margin: 0 auto;
     padding-top: 50px;
-  }
-  
-  /* Styling the h1 for a bold impact */
-  h1 {
+}
+
+/* Styling the h1 for a bold impact */
+h1 {
     font-size: 3em;
     color: #e60000;
     letter-spacing: 2px;
     margin-bottom: 0;
-  }
-  
-  /* Subheading style */
-  h3 {
+}
+
+/* Subheading style */
+h3 {
     font-size: 1.8em;
     color: #666;
     margin-top: 0;
     font-weight: 400;
-  }
-  
-  /* Add spacing between sections */
-  h2 {
+}
+
+/* Add spacing between sections */
+h2 {
     margin-top: 50px;
     font-size: 2.5em;
     color: #0056b3;
     text-transform: uppercase;
     letter-spacing: 1px;
-  }
-  
-  /* Styling paragraph content */
-  p {
+}
+
+/* Styling paragraph content */
+p {
     font-size: 1.2em;
     line-height: 1.8em;
     margin: 20px 0;
     color: #555;
     text-align: justify;
-  }
-  
-  /* Add some space below */
-  br {
+}
+
+/* Add some space below */
+br {
     margin-bottom: 20px;
-  }
-  
-  /* Add a subtle box-shadow to the text for depth */
-  h1, h2 {
+}
+
+/* Add a subtle box-shadow to the text for depth */
+h1, h2 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Add padding to paragraphs inside h2 sections */
-  h2 + p {
+}
+
+/* Add padding to paragraphs inside h2 sections */
+h2 + p {
     padding: 20px;
     background-color: #f0f8ff;
     border-left: 5px solid #0056b3;
-  }
-  
-  /* Improve mobile responsiveness */
-  @media (max-width: 768px) {
+}
+
+/* Improve mobile responsiveness */
+@media (max-width: 768px) {
     h1 {
-      font-size: 2.5em;
+        font-size: 2.5em;
     }
     h3 {
-      font-size: 1.5em;
+        font-size: 1.5em;
     }
     h2 {
-      font-size: 2em;
+        font-size: 2em;
     }
     p {
-      font-size: 1em;
+        font-size: 1em;
     }
-  }
-  
+}
